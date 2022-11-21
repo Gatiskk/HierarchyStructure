@@ -1,1 +1,2 @@
-# HierarchyStructure
+# DepthOfStructure
+![](struct2.PNG)
