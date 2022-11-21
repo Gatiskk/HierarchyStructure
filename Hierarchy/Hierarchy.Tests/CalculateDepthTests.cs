@@ -2,7 +2,6 @@ using FluentAssertions;
 using Hierarchy.Models;
 using System;
 using System.Collections.Generic;
-using Hierarchy.Interfaces;
 using Xunit;
 using System.Linq;
 

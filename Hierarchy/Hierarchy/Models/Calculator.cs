@@ -8,7 +8,7 @@ namespace Hierarchy.Models
     {
         public int CalculateDepth(List<Branch> branches, int depth = 1)
         {
-            if (branches is null)
+            if (branches == null)
             {
                 return depth;
             }

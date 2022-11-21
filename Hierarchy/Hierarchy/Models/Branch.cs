@@ -1,4 +1,4 @@
-﻿using System;
+﻿using Hierarchy.Exceptions;
 using System.Collections.Generic;
 
 namespace Hierarchy.Models
@@ -11,7 +11,7 @@ namespace Hierarchy.Models
         {
             if (branches.Count == 0)
             {
-                throw new InvalidOperationException("Sequence contains no elements");
+                throw new InvalidOperationException();
             }
             Branches = branches;
         }
